@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.summary     = 'serve ext'
   s.date        = '2015-11-05'
   s.authors     = ["tka"]
-  s.files       = ["lib/serve_ext.rb", "lib/ext/pipeline.rb", "lib/ext/view_helpers.rb"]
+  s.files       = ["lib/serve_ext.rb", "lib/serve_ext/pipeline.rb", "lib/serve_ext/view_helpers.rb"]
   s.homepage    = 'https://github.com/tka/serve_ext'
   s.license     = 'MIT'
 end
