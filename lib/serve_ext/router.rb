@@ -27,8 +27,7 @@ module Serve
       else
         # Still no luck? Check to see if a file with an extension exists by that name.
         # TODO: Return a path with an extension based on priority, not just the first found.
-        result = best_match(p)
-        result.sub(/^#{root}/i, '').sub(/^\//, '') if result && File.file?(result)
+        best_path.sub(/^#{root}/i, '').sub(/^\//, '') if best_path && File.file?(best_path)
       end
     end
 
