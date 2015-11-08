@@ -1,3 +1,6 @@
+require 'serve/rack'
+require 'serve_ext/rack'
+
 require 'serve/view_helpers'
 require 'serve_ext/view_helpers'
 
