@@ -1,3 +1,6 @@
+require 'serve/router'
+require 'serve_ext/router'
+
 require 'serve/rack'
 require 'serve_ext/rack'
 
